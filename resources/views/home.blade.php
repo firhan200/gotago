@@ -57,7 +57,7 @@
                         </div>
                     </div>
                     <div class="mx-auto">
-                        <img src="{{ asset('/imgs/undraw_Visionary_technology_re_jfp7.svg') }}" class="w-80"/>
+                        <img src="{{ asset('/imgs/undraw_visionary_technology_re_jfp7.svg') }}" class="w-80"/>
                     </div>
                 </div>
             </section>
