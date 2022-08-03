@@ -70,8 +70,8 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
                 @foreach ($teams as $team)
                 <div>
-                    <div class="mx-auto h-60 w-60 overflow-hidden hover:w-full ease-in duration-150 hover:shadow-xl hover:shadow-gray-300 hover:rounded">
-                        <img src="{{ Voyager::image($team->avatar) }}" class="object-fit"/>
+                    <div class="mx-auto h-60 w-60 overflow-hidden ease-in duration-150 hover:shadow-2xl rounded-full hover:shadow-gray-300 hover:animate-bounce">
+                        <img src="{{ Voyager::image($team->avatar) }}" class="object-fit w-full"/>
                     </div>
                     <div class="text-center my-4">
                         <div class="text-lg">{{ $team->name }}</div>
