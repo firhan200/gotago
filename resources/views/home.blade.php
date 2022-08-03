@@ -89,7 +89,7 @@
                 <div class="text-center text-2xl mb-12 text-white">Portfolio</div>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
                     @foreach ($portfolios as $portfolio)
-                        <div class="shadow shadow-indigo-300 rounded">
+                        <div class="shadow shadow-indigo-300 rounded bg-white">
                             <div>
                                 <img src="{{ Voyager::image($portfolio->image_cover) }}" />
                             </div>
